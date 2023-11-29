@@ -1,0 +1,144 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    
+    box-sizing: border-box;
+}
+
+html, body{
+    font-size: 62.5%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    height: 100%;
+    background-color: #CDB4DB;
+}
+
+#root{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+main{
+    background-color: #FFAFCC;
+
+   color: #F5F1E3;
+}
+
+h1{
+    font-size: 5rem;
+    display: flex;
+    justify-content: center;
+   
+}
+
+.header{
+    border: .2rem solid whitesmoke;
+    border-left: 0;
+    border-right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1rem 1.5rem;
+}
+
+input{
+    width: 80%;
+    font-size: 2.5rem;
+    padding: 1.5rem 1rem;
+    background-color: #CDB4DB;
+    color:white;
+    border: none;
+    border-radius: 1rem;
+}
+
+input::placeholder{
+    color :aliceblue
+}
+
+#add{
+    font-size: 4rem;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 30%;
+    cursor: pointer;
+}
+
+#add:hover{
+    background-color:#CDB4DB;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+article{
+    font-size: 3rem;
+    border-radius: 1rem;
+    background-color: #FFC8DD;
+    color: #FFF2F1;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+.content::-webkit-scrollbar{
+    display: none;
+}
+
+.content{
+    height: 58rem;
+    padding: 1rem;
+    overflow-y:scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    
+}
+.butons{
+    
+   cursor: pointer;
+    font-size: 2rem;
+}
+.butons:hover{
+    background-color:#CDB4DB;
+}
+
+.material-symbols-outlined {
+ font-variation-settings:
+ 'FILL' 0,
+ 'wght' 400,
+ 'GRAD' 0,
+ 'opsz' 48
+}
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+dialog{
+    top: 30%;
+    left: 45%;
+
+    padding: 2rem;
+
+    border: 0 solid black;
+    border-radius: 3rem;
+}
+dialog::backdrop{
+    background-color: black;
+    opacity: 0.6;
+}
+dialog button{
+    padding: 1rem;
+    font-size: 2rem;
+}
